@@ -13,8 +13,8 @@ class Book extends Author {
 
 
 
-    public Book(String title, String author, String nationality) {
-        super(author, nationality);
+    public Book(String title, String author) {
+        super(author);
         this.title = title;
         this.isAvailable = true;
     }
@@ -48,7 +48,7 @@ class Book extends Author {
     // override abstract method
     @Override
     public void displayDetails() {
-        System.out.println("Author Details - Name: " + name + ", Nationality: " + nationality);
+        System.out.println("Author Details - Name: " + name );
         System.out.println("Book Title: " + title);
     }
 

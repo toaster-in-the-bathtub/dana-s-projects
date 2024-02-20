@@ -20,20 +20,20 @@ public class Library {
         }
 
         this.books =new ArrayList<>();
-        addBook(new Book("The Great Gatsby", "F. Scott Fitzgerald","American"));
-        addBook(new Book("To Kill a Mockingbird", "Harper Lee","American"));
-        addBook(new Book("1984", "George Orwell","British"));
-        addBook(new Book("Pride and Prejudice", "Jane Austen","British"));
-        addBook(new Book("The Catcher in the Rye", "J.D. Salinger","American"));
-        addBook(new Book("The Hobbit", "J.R.R. Tolkien","British"));
-        addBook(new Book("The Chronicles of Narnia", "C.S. Lewis","British"));
-        addBook(new Book("The Harry Potter Series", "J.K. Rowling","British"));
-        addBook(new Book("The Lord of the Rings", "J.R.R. Tolkien","British"));
-        addBook(new Book("The Great Expectations", "Charles Dickens","British"));
-        addBook(new Book("Brave New World", "Aldous Huxley","British"));
-        addBook(new Book("The Alchemist", "Paulo Coelho","Brazilian"));
-        addBook(new Book("Moby-Dick", "Herman Melville","American"));
-        addBook(new Book("Crime and Punishment", "Fyodor Dostoevsky","Russian"));
+        addBook(new Book("The Great Gatsby", "F. Scott Fitzgerald"));
+        addBook(new Book("To Kill a Mockingbird", "Harper Lee"));
+        addBook(new Book("1984", "George Orwell"));
+        addBook(new Book("Pride and Prejudice", "Jane Austen"));
+        addBook(new Book("The Catcher in the Rye", "J.D. Salinger"));
+        addBook(new Book("The Hobbit", "J.R.R. Tolkien"));
+        addBook(new Book("The Chronicles of Narnia", "C.S. Lewis"));
+        addBook(new Book("The Harry Potter Series", "J.K. Rowling"));
+        addBook(new Book("The Lord of the Rings", "J.R.R. Tolkien"));
+        addBook(new Book("The Great Expectations", "Charles Dickens"));
+        addBook(new Book("Brave New World", "Aldous Huxley"));
+        addBook(new Book("The Alchemist", "Paulo Coelho"));
+        addBook(new Book("Moby-Dick", "Herman Melville"));
+        addBook(new Book("Crime and Punishment", "Fyodor Dostoevsky"));
 
     }
 

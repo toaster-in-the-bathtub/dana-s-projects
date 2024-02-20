@@ -1,6 +1,5 @@
 abstract class Author {
     protected String name;
-    protected String nationality;
     private int author_id;
 
     public int getauthor_id() {
@@ -10,9 +9,8 @@ abstract class Author {
         this.author_id = author_id;
     }
 
-    public Author(String name, String nationality) {
+    public Author(String name) {
         this.name = name;
-        this.nationality = nationality;
     }
 
     // abstract method
